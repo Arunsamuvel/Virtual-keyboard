@@ -11,56 +11,73 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <section class="main-container"></section>
-    <header>
-      <h1>Virtual Keyboard</h1>
-    </header>
-    <div>
-      <form action="">
-        <input type="text" placeholder="Type display here" />
-        <div id="container">
-          <div class="box"><input type="button" value="1" /></div>
-          <div class="box"><input type="button" value="2" /></div>
-          <div class="box"><input type="button" value="3" /></div>
-          <div class="box"><input type="button" value="4" /></div>
-          <div class="box"><input type="button" value="5" /></div>
-          <div class="box"><input type="button" value="6" /></div>
-          <div class="box"><input type="button" value="7" /></div>
-          <div class="box"><input type="button" value="8" /></div>
-          <div class="box"><input type="button" value="9" /></div>
-          <div class="box"><input type="button" value="0" /></div>
-          <div class="box"><input type="button" value="Q" /></div>
-          <div class="box"><input type="button" value="W" /></div>
-          <div class="box"><input type="button" value="E" /></div>
-          <div class="box"><input type="button" value="R" /></div>
-          <div class="box"><input type="button" value="T" /></div>
-          <div class="box"><input type="button" value="Y" /></div>
-          <div class="box"><input type="button" value="U" /></div>
-          <div class="box"><input type="button" value="I" /></div>
-          <div class="box"><input type="button" value="O" /></div>
-          <div class="box"><input type="button" value="P" /></div>
-          <div class="box"><input type="button" value="A" /></div>
-          <div class="box"><input type="button" value="S" /></div>
-          <div class="box"><input type="button" value="D" /></div>
-          <div class="box"><input type="button" value="F" /></div>
-          <div class="box"><input type="button" value="G" /></div>
-          <div class="box"><input type="button" value="H" /></div>
-          <div class="box"><input type="button" value="J" /></div>
-          <div class="box"><input type="button" value="K" /></div>
-          <div class="box"><input type="button" value="L" /></div>
-          <div class="box"><input type="button" value="Z" /></div>
-          <div class="box"><input type="button" value="X" /></div>
-          <div class="box"><input type="button" value="C" /></div>
-          <div class="box"><input type="button" value="V" /></div>
-          <div class="box"><input type="button" value="B" /></div>
-          <div class="box"><input type="button" value="N" /></div>
-          <div class="box"><input type="button" value="M" /></div>
-          <div class="box"><input type="button" value="SPACE" /></div>
-          <div class="box"><input type="button" value="DELETE" /></div>
-          <div class="box"><input type="button" value="BACKSPACE" /></div>
-        </div>
-      </form>
-    </div>
+    <section class="main-container">
+      <div class="border">
+        <header>
+          <h1>Virtual Keyboard</h1>
+        </header>
+      </div>
+      <div>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Type display here"
+            id="text-display"
+          />
+          <div id="container">
+            <div class="box">
+              <input type="button" value="1" />
+              <input type="button" value="2" />
+              <input type="button" value="3" />
+              <input type="button" value="4" />
+              <input type="button" value="5" />
+              <input type="button" value="6" />
+              <input type="button" value="7" />
+              <input type="button" value="8" />
+              <input type="button" value="9" />
+              <input type="button" value="0" />
+            </div>
+            <div class="box">
+              <input type="button" value="Q" />
+              <input type="button" value="W" />
+              <input type="button" value="E" />
+              <input type="button" value="R" />
+              <input type="button" value="T" />
+              <input type="button" value="Y" />
+              <input type="button" value="U" />
+              <input type="button" value="I" />
+              <input type="button" value="O" />
+              <input type="button" value="P" />
+            </div>
+            <div class="box">
+              <input type="button" value="A" />
+              <input type="button" value="S" />
+              <input type="button" value="D" />
+              <input type="button" value="F" />
+              <input type="button" value="G" />
+              <input type="button" value="H" />
+              <input type="button" value="J" />
+              <input type="button" value="K" />
+              <input type="button" value="L" />
+            </div>
+            <div class="box">
+              <input type="button" value="Z" />
+              <input type="button" value="X" />
+              <input type="button" value="C" />
+              <input type="button" value="V" />
+              <input type="button" value="B" />
+              <input type="button" value="N" />
+              <input type="button" value="M" />
+            </div>
+            <div class="box5">
+              <input type="button" value="SPACE" />
+              <input type="reset" value="DELETE" />
+              <input type="button" value="BACKSPACE" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
     <!-- custom script -->
     <script src="./scripts/script.js"></script>
   </body>
