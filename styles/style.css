@@ -36,10 +36,16 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: aquamarine;
+  background-color: rgb(219, 240, 227);
   width: 100vw;
   height: 100vh;
 }
+.border {
+  padding: 10px 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
 #text-display {
   padding: 30px 250px;
 }
@@ -47,13 +53,26 @@ img {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: black;
   width: 100%;
   height: auto;
 }
 input {
   padding: 30px;
-  box-shadow: 10px 10px red;
+  margin: 6px;
+  box-shadow: 2px 1px 3px 3px #fff;
+  color: rgb(3, 55, 55);
 }
-.box5 {
+.space input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box #space {
+  width: 500px;
 }
