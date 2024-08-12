@@ -30,7 +30,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+h1 {
+  color: #243d27;
+}
 .main-container {
   display: flex;
   align-items: center;
