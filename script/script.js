@@ -2,7 +2,7 @@
 
 const display = document.getElementById("text-display");
 
-const backSpace = document.getElementById("Backspace");
+// const backspace = document.getElementById("Backspace");
 
 // const textDisplay = display.value;
 
@@ -11,9 +11,14 @@ const backSpace = document.getElementById("Backspace");
 //   console.log("connected");
 // }
 
-const input = [];
+// const input = [];
 
 function appendToDisplay(input) {
   display.value += input;
   console.log("connected");
+}
+
+// using string method slice to pop up the lase element so we get the output from the backspace
+function backSpace() {
+  display.value = display.value.slice(0, -1);
 }
