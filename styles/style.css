@@ -49,14 +49,23 @@ h1 {
   padding: 10px 50px;
   border: 1px solid black;
   border-radius: 20px;
+  margin: 0px 0 40px 0;
 }
 /* display */
 #text-display {
-  padding: 30px 250px;
+  padding: 25px 250px;
   width: 100%;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   background-color: rgb(233, 236, 233);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 6px;
+  box-shadow: 2px 1px 3px 3px #fff;
+  color: rgb(3, 55, 55);
+  border: 1px solid rgb(143, 169, 148);
+  border-radius: 15px;
+  overflow: auto;
 }
 /* not used */
 /* .container {
@@ -66,6 +75,7 @@ h1 {
   background-color: black;
   width: 100%;
   height: auto;
+  border: 2px solid red;
 } */
 /* keyboards */
 input {
@@ -78,7 +88,8 @@ input {
 }
 input:hover {
   cursor: pointer;
-  color: black;
+  background-color: #baeec0;
+  box-shadow: 2px 1px 3px 3px rgb(103, 123, 105);
 }
 
 /* space keyboard */
@@ -94,6 +105,6 @@ input:hover {
   justify-content: center;
 }
 /* for space alignment */
-.box #space {
+.box .space {
   width: 500px;
 }

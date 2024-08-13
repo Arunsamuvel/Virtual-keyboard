@@ -19,7 +19,11 @@
       </div>
       <div>
         <form action="">
-          <input type="text" placeholder="Display here" id="text-display" />
+          <textarea
+            name="Display"
+            id="text-display"
+            placeholder="Display Here"
+          ></textarea>
           <div id="container">
             <div class="box">
               <input type="button" value="1" onclick="appendToDisplay('1')" />
@@ -38,13 +42,13 @@
               <input type="button" value="Q" onclick="appendToDisplay('Q')" />
               <input type="button" value="W" onclick="appendToDisplay('W')" />
               <input type="button" value="E" onclick="appendToDisplay('E')" />
-              <input type="button" value="R" onclick="appendToDisplay('E')" />
-              <input type="button" value="T" onclick="appendToDisplay('R')" />
-              <input type="button" value="Y" onclick="appendToDisplay('T')" />
-              <input type="button" value="U" onclick="appendToDisplay('Y')" />
-              <input type="button" value="I" onclick="appendToDisplay('U')" />
-              <input type="button" value="O" onclick="appendToDisplay('I')" />
-              <input type="button" value="P" onclick="appendToDisplay('O')" />
+              <input type="button" value="R" onclick="appendToDisplay('R')" />
+              <input type="button" value="T" onclick="appendToDisplay('T')" />
+              <input type="button" value="Y" onclick="appendToDisplay('Y')" />
+              <input type="button" value="U" onclick="appendToDisplay('U')" />
+              <input type="button" value="I" onclick="appendToDisplay('I')" />
+              <input type="button" value="O" onclick="appendToDisplay('O')" />
+              <input type="button" value="P" onclick="appendToDisplay('P')" />
               <input
                 type="reset"
                 value="DELETE"
@@ -72,7 +76,12 @@
               <input type="button" value="M" onclick="appendToDisplay('M')" />
             </div>
             <div class="box">
-              <input type="button" value="SPACE" id="space" />
+              <input
+                type="button"
+                value="SPACE"
+                class="space"
+                onclick="appendToDisplay(' ')"
+              />
             </div>
           </div>
         </form>
