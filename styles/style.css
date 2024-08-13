@@ -108,3 +108,7 @@ input:hover {
 .box .space {
   width: 500px;
 }
+.delete:hover {
+  background-color: rgb(255, 106, 106);
+  color: #fff;
+}
