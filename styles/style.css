@@ -112,3 +112,58 @@ input:hover {
   background-color: rgb(255, 106, 106);
   color: #fff;
 }
+@media only screen and (max-width: 600px) {
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(219, 240, 227);
+    width: 100vw;
+    height: 100vh;
+    /* padding: 10px;
+    margin: 1px; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  input {
+    padding: 3px;
+    margin: 1px;
+    box-shadow: 2px 1px 3px 3px #fff;
+    color: rgb(3, 55, 55);
+    border: 1px solid rgb(143, 169, 148);
+    border-radius: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #text-display {
+    padding: 2.5px 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(233, 236, 233);
+    border-radius: 15px;
+    padding: 3px;
+    margin: 6px;
+    box-shadow: 2px 1px 3px 3px #fff;
+    color: rgb(3, 55, 55);
+    border: 1px solid rgb(143, 169, 148);
+    border-radius: 15px;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  input::after {
+    cursor: pointer;
+    background-color: #baeec0;
+    box-shadow: 2px 1px 3px 3px rgb(103, 123, 105);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .box .space {
+    width: 150px;
+  }
+}
