@@ -30,9 +30,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* title */
 h1 {
   color: #243d27;
 }
+/* whole page */
 .main-container {
   display: flex;
   align-items: center;
@@ -42,12 +44,13 @@ h1 {
   width: 100vw;
   height: 100vh;
 }
+/* border for heading */
 .border {
   padding: 10px 50px;
   border: 1px solid black;
   border-radius: 20px;
 }
-
+/* display */
 #text-display {
   padding: 30px 250px;
   width: 100%;
@@ -55,14 +58,16 @@ h1 {
   font-size: 40px;
   background-color: rgb(233, 236, 233);
 }
-.container {
+/* not used */
+/* .container {
   display: grid;
   align-items: center;
   justify-content: center;
   background-color: black;
   width: 100%;
   height: auto;
-}
+} */
+/* keyboards */
 input {
   padding: 30px;
   margin: 6px;
@@ -71,16 +76,24 @@ input {
   border: 1px solid rgb(143, 169, 148);
   border-radius: 15px;
 }
+input:hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* space keyboard */
 .space input {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/* for rows */
 .box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/* for space alignment */
 .box #space {
   width: 500px;
 }
