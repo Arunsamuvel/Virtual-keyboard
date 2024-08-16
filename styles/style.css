@@ -130,7 +130,7 @@ input:hover {
 }
 @media only screen and (max-width: 600px) {
   input {
-    padding: 3px;
+    padding: 10px;
     margin: 1px;
     box-shadow: 2px 1px 3px 3px #fff;
     color: rgb(3, 55, 55);
